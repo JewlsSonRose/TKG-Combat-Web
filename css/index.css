@@ -7,18 +7,18 @@
 
 /* Page Layout */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #f4f4f9;
-  color: #222;
+  background-color: #181a20;
+  color: #eaeaea;
 }
 
 /* Header */
 header {
-  background-color: #222;
-  color: #fff;
+  background-color: #23262f;
+  color: #f5b43b;
   padding: 1.5rem 2rem;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -34,25 +34,28 @@ main {
   flex: 1;
   padding: 2rem;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 2.5rem auto;
+  background: #23262f;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Description Section */
 .description {
   margin-top: 1.5rem;
   margin-bottom: 2.5rem;
-  background-color: #fff;
+  background-color: #23262f;
   padding: 1.5rem;
-
   border-radius: 6px;
+  color: #eaeaea;
 }
 
 /* Section Headings */
 section h2 {
-  color: #333;
+  color: #f5b43b;
   margin-bottom: 1rem;
   font-size: 1.4rem;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #2d313d;
   padding-bottom: 0.3rem;
 }
 
@@ -71,21 +74,22 @@ li {
 
 a {
   text-decoration: none;
-  color: #0066cc;
+  color: #d4a958;
   font-weight: bold;
 }
 
 li:hover {
-  background-color: #e8f1ff;
+  background-color: #2d313d;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #ffe6b0;
 }
 
 .character-resources {
   margin-bottom: 2.5rem;
-  background-color: #fdfdfd;
+  background-color: #23262f;
   padding: 1.2rem;
   border-left: 5px solid #9c27b0;
   border-radius: 6px;
@@ -94,7 +98,7 @@ a:hover {
 
 .basic-mechanics {
   margin-bottom: 2.5rem;
-  background-color: #fdfdfd;
+  background-color: #23262f;
   padding: 1.2rem;
   border-left: 5px solid #4caf50;
   border-radius: 6px;
@@ -102,7 +106,7 @@ a:hover {
 }
 
 .advanced-mechanics {
-  background-color: #fdfdfd;
+  background-color: #23262f;
   padding: 1.2rem;
   border-left: 5px solid #ff9800;
   border-radius: 6px;
@@ -113,8 +117,10 @@ a:hover {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #ddd;
+  background-color: #23262f;
+  color: #bdbdbd;
   font-size: 0.9rem;
   margin-top: auto;
-  border-top: 1px solid #ccc;
+  border-top: 2px solid #2d313d;
+  border-radius: 0 0 12px 12px;
 }
